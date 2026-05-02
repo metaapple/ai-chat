@@ -86,6 +86,3 @@ npm run build
 npm run preview
 ```
 
-## 라이선스
-
-프로젝트 정책에 맞게 `LICENSE`를 추가해 주세요.
