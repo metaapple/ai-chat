@@ -2,6 +2,10 @@
 
 RAG(검색 증강 생성) 스타일 FAQ 매칭과 채팅 UI를 제공하는 React(Vite) 웹 앱입니다. 이 저장소는 [metaapple/ai-chat](https://github.com/metaapple/ai-chat)에 게시됩니다. <br>
 
+
+<img width="1536" height="1024" alt="KakaoTalk_Photo_2026-05-02-12-22-26" src="https://github.com/user-attachments/assets/d8108109-f144-4a4e-96c1-5d3730874fa9" />
+
+<br>
 <img width="1536" height="1024" alt="chat-1" src="https://github.com/user-attachments/assets/3024a4bb-a847-4a2d-a5c0-6280b6e81451" />
 
 <img width="1107" height="800" alt="chat-2" src="https://github.com/user-attachments/assets/657d9f2d-3ae2-4006-8268-4fcd49d80cb4" />
