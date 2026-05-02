@@ -1,6 +1,10 @@
 # AI 상담 · AI Chat
 
-RAG(검색 증강 생성) 스타일 FAQ 매칭과 채팅 UI를 제공하는 React(Vite) 웹 앱입니다. 이 저장소는 [metaapple/ai-chat](https://github.com/metaapple/ai-chat)에 게시됩니다.
+RAG(검색 증강 생성) 스타일 FAQ 매칭과 채팅 UI를 제공하는 React(Vite) 웹 앱입니다. 이 저장소는 [metaapple/ai-chat](https://github.com/metaapple/ai-chat)에 게시됩니다. <br>
+
+<img width="1536" height="1024" alt="chat-1" src="https://github.com/user-attachments/assets/3024a4bb-a847-4a2d-a5c0-6280b6e81451" />
+
+<img width="1107" height="800" alt="chat-2" src="https://github.com/user-attachments/assets/657d9f2d-3ae2-4006-8268-4fcd49d80cb4" />
 
 ## 스택 요약
 
@@ -22,21 +26,15 @@ RAG(검색 증강 생성) 스타일 FAQ 매칭과 채팅 UI를 제공하는 Reac
 
 ## 화면 캡처 (chat-1 · chat-2)
 
-### Chat 1 — 초기 환영·추천 질문
-
-![AI 상담 환영 화면](docs/chat-1.jpeg)
-
-### Chat 2 — 사용자 질문·봇 응답
+## 사용자 질문·봇 응답
 
 ![AI 상담 대화 화면](docs/chat-2.png)
 
 ## 데모 동영상 (MOV)
 
-GitHub에서 아래 컨트롤로 바로 재생할 수 있습니다. 재생이 안 되면 [raw `chat-3.mov`](https://github.com/metaapple/ai-chat/raw/main/docs/chat-3.mov)로 직접 열 수 있습니다.
+https://youtu.be/fHrHqrn27wE 
 
-<video src="docs/chat-3.mov" controls playsinline width="100%" style="max-width:720px">
-  이 브라우저는 HTML5 video를 지원하지 않습니다. <a href="docs/chat-3.mov">MOV 파일</a>을 직접 열어 주세요.
-</video>
+[![프로젝트 시연 영상](https://youtu.be/fHrHqrn27wE)
 
 ## 아키텍처 개요
 
