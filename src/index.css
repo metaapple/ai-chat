@@ -1,0 +1,115 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 30% 98%;
+    --foreground: 240 25% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 25% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 25% 12%;
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 250 40% 96%;
+    --secondary-foreground: 240 25% 18%;
+    --muted: 250 30% 95%;
+    --muted-foreground: 240 10% 45%;
+    --accent: 252 95% 92%;
+    --accent-foreground: 262 83% 40%;
+    --destructive: 0 78% 58%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 250 25% 90%;
+    --input: 250 25% 90%;
+    --ring: 262 83% 58%;
+    --radius: 0.75rem;
+
+    --brand: 262 83% 58%;
+    --brand-2: 252 95% 70%;
+    --brand-soft: 252 100% 97%;
+    --success: 152 70% 42%;
+    --warning: 38 95% 55%;
+
+    --gradient-hero: linear-gradient(135deg, hsl(252 100% 98%), hsl(250 100% 95%));
+    --gradient-brand: linear-gradient(135deg, hsl(262 83% 58%), hsl(252 95% 70%));
+    --shadow-card: 0 10px 30px -16px hsl(262 60% 30% / 0.18);
+    --shadow-brand: 0 14px 40px -18px hsl(262 83% 58% / 0.55);
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.app-shell {
+  background: var(--gradient-hero);
+  min-height: 100vh;
+}
+
+.brand-card {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.brand-card:hover { transform: translateY(-2px); border-color: hsl(var(--brand) / 0.4); }
+.brand-card.active { border-color: hsl(var(--brand)); box-shadow: var(--shadow-brand); }
+
+.brand-gradient { background: var(--gradient-brand); color: #fff; }
+.text-brand { color: hsl(var(--brand)); }
+.bg-brand-soft { background: hsl(var(--brand-soft)); }
+
+.icon-bubble {
+  width: 48px; height: 48px; border-radius: 14px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: hsl(var(--brand-soft));
+  color: hsl(var(--brand));
+  font-size: 1.25rem;
+}
+
+.pulse-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: hsl(var(--success));
+  box-shadow: 0 0 0 0 hsl(var(--success) / 0.6);
+  animation: pulse-ring 1.6s infinite;
+  display: inline-block;
+}
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 hsl(var(--success) / 0.6); }
+  70% { box-shadow: 0 0 0 10px hsl(var(--success) / 0); }
+  100% { box-shadow: 0 0 0 0 hsl(var(--success) / 0); }
+}
+
+.chat-bubble {
+  max-width: 78%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  line-height: 1.45;
+  word-break: break-word;
+}
+.chat-bubble.user { background: var(--gradient-brand); color: #fff; border-bottom-right-radius: 4px; }
+.chat-bubble.bot  { background: hsl(var(--secondary)); color: hsl(var(--foreground)); border-bottom-left-radius: 4px; }
+
+.btn-brand {
+  background: var(--gradient-brand);
+  color: #fff;
+  border: none;
+}
+.btn-brand:hover { color: #fff; opacity: .92; }
+
+.nav-pills .nav-link { color: hsl(var(--muted-foreground)); }
+.nav-pills .nav-link.active { background: var(--gradient-brand); color: #fff; }
+
+.table-soft {
+  --bs-table-bg: transparent;
+  --bs-table-color: hsl(var(--foreground));
+  --bs-table-border-color: hsl(var(--border));
+  --bs-table-hover-bg: hsl(var(--brand-soft));
+}

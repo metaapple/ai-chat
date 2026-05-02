@@ -1,0 +1,46 @@
+{
+  "faqs": [
+    { "id": 1, "category": "결제", "question": "카드 결제가 실패했어요", "answer": "카드 한도/유효기간을 먼저 확인해 주세요. 계속 실패하면 다른 카드로 시도하시거나 1:1 문의를 남겨주세요.", "keywords": ["카드", "결제", "실패", "오류", "payment"], "views": 1240 },
+    { "id": 2, "category": "결제", "question": "환불은 언제 받을 수 있나요?", "answer": "환불 승인 후 영업일 기준 3~5일 내에 결제 수단으로 환급됩니다. 카드사 사정에 따라 최대 7일이 소요될 수 있습니다.", "keywords": ["환불", "취소", "refund"], "views": 980 },
+    { "id": 3, "category": "배송", "question": "배송 조회는 어떻게 하나요?", "answer": "마이페이지 > 주문내역에서 송장번호 클릭 시 실시간 배송 현황을 확인하실 수 있습니다.", "keywords": ["배송", "조회", "송장", "택배"], "views": 1530 },
+    { "id": 4, "category": "배송", "question": "배송이 지연되고 있어요", "answer": "현재 물류 사정으로 1~2일 지연될 수 있습니다. 3일 이상 지연 시 자동 보상 쿠폰이 발급됩니다.", "keywords": ["배송", "지연", "늦어"], "views": 760 },
+    { "id": 5, "category": "계정", "question": "비밀번호를 잊어버렸어요", "answer": "로그인 화면 하단의 '비밀번호 찾기'를 통해 가입 이메일로 재설정 링크를 받으실 수 있습니다.", "keywords": ["비밀번호", "패스워드", "찾기", "재설정", "password"], "views": 2100 },
+    { "id": 6, "category": "계정", "question": "회원 탈퇴는 어떻게 하나요?", "answer": "마이페이지 > 설정 > 회원 탈퇴에서 진행 가능합니다. 탈퇴 시 보유 포인트는 모두 소멸됩니다.", "keywords": ["탈퇴", "회원", "삭제"], "views": 410 },
+    { "id": 7, "category": "상품", "question": "재고가 없는 상품 알림 받을 수 있나요?", "answer": "상품 상세 페이지의 '재입고 알림' 버튼을 누르시면 입고 즉시 SMS/이메일로 알려드립니다.", "keywords": ["재고", "재입고", "알림", "품절"], "views": 540 },
+    { "id": 8, "category": "상품", "question": "상품 교환 절차가 궁금해요", "answer": "수령 후 7일 이내 마이페이지에서 교환 신청이 가능합니다. 단순 변심은 왕복 배송비가 부과됩니다.", "keywords": ["교환", "반품", "변심"], "views": 670 },
+    { "id": 9, "category": "기술", "question": "앱이 자꾸 종료돼요", "answer": "앱 최신 버전인지 확인 후, 캐시를 삭제해 주세요. 그래도 문제 시 기기 정보와 함께 문의해 주세요.", "keywords": ["앱", "오류", "종료", "버그", "crash"], "views": 320 },
+    { "id": 10, "category": "기술", "question": "로그인이 안 돼요", "answer": "이메일/비밀번호를 확인해 주세요. SNS 로그인 사용자라면 동일한 SNS로 다시 시도해 주세요.", "keywords": ["로그인", "접속", "인증", "login"], "views": 890 }
+  ],
+  "categories": [
+    { "name": "결제", "value": 1320, "color": "#7c3aed" },
+    { "name": "배송", "value": 980,  "color": "#a78bfa" },
+    { "name": "계정", "value": 760,  "color": "#6366f1" },
+    { "name": "상품", "value": 540,  "color": "#8b5cf6" },
+    { "name": "기술", "value": 410,  "color": "#c4b5fd" }
+  ],
+  "dailyVolume": [
+    { "date": "04-26", "ai": 320, "human": 80 },
+    { "date": "04-27", "ai": 410, "human": 95 },
+    { "date": "04-28", "ai": 380, "human": 70 },
+    { "date": "04-29", "ai": 520, "human": 110 },
+    { "date": "04-30", "ai": 610, "human": 120 },
+    { "date": "05-01", "ai": 580, "human": 100 },
+    { "date": "05-02", "ai": 720, "human": 130 }
+  ],
+  "responseTimes": [
+    { "hour": "09시", "seconds": 1.8 },
+    { "hour": "11시", "seconds": 2.1 },
+    { "hour": "13시", "seconds": 3.4 },
+    { "hour": "15시", "seconds": 2.7 },
+    { "hour": "17시", "seconds": 2.2 },
+    { "hour": "19시", "seconds": 1.6 }
+  ],
+  "metrics": {
+    "satisfaction": 92,
+    "automationRate": 86,
+    "totalToday": 850,
+    "avgResponseSec": 2.3,
+    "activeAgents": 12,
+    "ragAccuracy": 94
+  }
+}
