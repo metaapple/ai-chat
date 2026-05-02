@@ -32,9 +32,13 @@ RAG(검색 증강 생성) 스타일 FAQ 매칭과 채팅 UI를 제공하는 Reac
 
 ## 데모 동영상 (MOV)
 
-https://youtu.be/fHrHqrn27wE 
+<p align="center">
+  <a href="https://youtu.be/fHrHqrn27wE">
+    <img src="https://img.youtube.com/vi/fHrHqrn27wE/0.jpg" width="700">
+  </a>
+</p>
 
-[![프로젝트 시연 영상](https://youtu.be/fHrHqrn27wE)]
+<br>
 
 ## 아키텍처 개요
 
